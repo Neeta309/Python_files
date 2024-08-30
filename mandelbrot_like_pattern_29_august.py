@@ -3,7 +3,7 @@ import random
 
 # Create a turtle
 mandelbrot = turtle.Turtle()
-mandelbrot.speed(10)
+mandelbrot.speed(-15)
 # mandelbrot.color("white")
 
 
@@ -12,7 +12,7 @@ screen = turtle.Screen()
 screen.bgcolor("black")
 
 # Draw Mandelbrot - like pattern
-for i in range(500):
+for i in range(200):
   mandelbrot.color(random.choice(["red", "blue", "green", "orange", "purple", "yellow"]))
   mandelbrot.forward(i)
   mandelbrot.left(121)
